@@ -12,8 +12,7 @@ data = [
     ("Anita", 75000),
     ("Vikram", 40000),
     ("Priya", 51000),
-    ("Swara",85000),
-    ("Ravi"65000)
+    ("Swara",85000)
 ]
 rdd = spark.sparkContext.parallelize(data)
 
